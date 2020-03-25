@@ -1,32 +1,32 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.wpg.mapper.CollectorMapper">
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">-->
+<!--<mapper namespace="com.wpg.mapper.CollectorMapper">-->
 
-    <!-- 通用查询映射结果 -->
-    <resultMap id="BaseResultMap" type="com.wpg.entity.Collector">
-        <id column="collector_id" property="collectorId" />
-        <result column="device_id" property="deviceId" />
-        <result column="device_name" property="deviceName" />
-        <result column="collector_type" property="collectorType" />
-        <result column="collector_name" property="collectorName" />
-        <result column="project_name" property="projectName" />
-        <result column="id_region" property="idRegion" />
-        <result column="sim_type" property="simType" />
-        <result column="sim_num" property="simNum" />
-        <result column="more_flag" property="moreFlag" />
-        <result column="status" property="status" />
-        <result column="is_online" property="isOnline" />
-        <result column="is_alarm" property="isAlarm" />
-        <result column="is_clone" property="isClone" />
-        <result column="is_start" property="isStart" />
-        <result column="create_time" property="createTime" />
-        <result column="update_time" property="updateTime" />
-        <result column="del_flag" property="delFlag" />
-    </resultMap>
+<!--    &lt;!&ndash; 通用查询映射结果 &ndash;&gt;-->
+<!--    <resultMap id="BaseResultMap" type="com.wpg.entity.Collector">-->
+<!--        <id column="collector_id" property="collectorId" />-->
+<!--        <result column="device_id" property="deviceId" />-->
+<!--        <result column="device_name" property="deviceName" />-->
+<!--        <result column="collector_type" property="collectorType" />-->
+<!--        <result column="collector_name" property="collectorName" />-->
+<!--        <result column="project_name" property="projectName" />-->
+<!--        <result column="id_region" property="idRegion" />-->
+<!--        <result column="sim_type" property="simType" />-->
+<!--        <result column="sim_num" property="simNum" />-->
+<!--        <result column="more_flag" property="moreFlag" />-->
+<!--        <result column="status" property="status" />-->
+<!--        <result column="is_online" property="isOnline" />-->
+<!--        <result column="is_alarm" property="isAlarm" />-->
+<!--        <result column="is_clone" property="isClone" />-->
+<!--        <result column="is_start" property="isStart" />-->
+<!--        <result column="create_time" property="createTime" />-->
+<!--        <result column="update_time" property="updateTime" />-->
+<!--        <result column="del_flag" property="delFlag" />-->
+<!--    </resultMap>-->
 
-    <!-- 通用查询结果列 -->
-    <sql id="Base_Column_List">
-        device_id, device_name, collector_id, collector_type, collector_name, project_name, id_region, sim_type, sim_num, more_flag, status, is_online, is_alarm, is_clone, is_start, create_time, update_time, del_flag
-    </sql>
+<!--    &lt;!&ndash; 通用查询结果列 &ndash;&gt;-->
+<!--    <sql id="Base_Column_List">-->
+<!--        device_id, device_name, collector_id, collector_type, collector_name, project_name, id_region, sim_type, sim_num, more_flag, status, is_online, is_alarm, is_clone, is_start, create_time, update_time, del_flag-->
+<!--    </sql>-->
 
-</mapper>
+<!--</mapper>-->
